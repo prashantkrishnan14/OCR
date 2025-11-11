@@ -1,0 +1,28 @@
+# Core OCR dependencies
+pytesseract>=0.3.10
+Pillow>=10.0.0
+pdf2image>=1.16.3
+opencv-python>=4.8.0
+
+# ERPNext/Frappe integration
+requests>=2.31.0
+frappe-client>=0.0.2
+
+# Data processing
+python-dateutil>=2.8.2
+rapidfuzz>=3.5.2
+pandas>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Optional: Google Vision API
+google-cloud-vision>=3.4.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# CLI
+click>=8.1.7

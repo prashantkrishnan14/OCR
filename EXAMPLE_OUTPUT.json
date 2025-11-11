@@ -1,0 +1,73 @@
+{
+  "file": "/home/user/OCR/sample_invoices/sample_invoice.pdf",
+  "vendor_name": {
+    "value": "ACME SUPPLIES PVT LTD",
+    "confidence": 0.92
+  },
+  "invoice_number": {
+    "value": "INV-2025-0099",
+    "confidence": 0.96
+  },
+  "invoice_date": {
+    "value": "2025-11-08",
+    "confidence": 0.9
+  },
+  "invoice_total": {
+    "value": 48734.0,
+    "currency": "INR",
+    "confidence": 0.95
+  },
+  "tax_amount": {
+    "value": 7434.0,
+    "currency": "INR",
+    "confidence": 0.88
+  },
+  "line_items": [
+    {
+      "description": "Cable ties 100mm (Pack of 100)",
+      "qty": 10,
+      "unit_price": 150.0,
+      "line_total": 1500.0,
+      "confidence": 0.75
+    },
+    {
+      "description": "Zip ties 200mm (Pack of 50)",
+      "qty": 20,
+      "unit_price": 1250.0,
+      "line_total": 25000.0,
+      "confidence": 0.72
+    },
+    {
+      "description": "Wire management clips",
+      "qty": 5,
+      "unit_price": 340.0,
+      "line_total": 1700.0,
+      "confidence": 0.73
+    },
+    {
+      "description": "Cable tray 2m length",
+      "qty": 15,
+      "unit_price": 620.0,
+      "line_total": 9300.0,
+      "confidence": 0.74
+    },
+    {
+      "description": "Cable glands M20",
+      "qty": 30,
+      "unit_price": 126.67,
+      "line_total": 3800.0,
+      "confidence": 0.71
+    }
+  ],
+  "vendor_match": {
+    "erp_id": "VND-0001",
+    "name": "ACME SUPPLIES PVT LTD",
+    "confidence": 0.95
+  },
+  "purchase_invoice_created": {
+    "docname": "PINV-00012",
+    "status": "Draft"
+  },
+  "warnings": [],
+  "errors": []
+}

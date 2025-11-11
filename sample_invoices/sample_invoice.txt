@@ -1,0 +1,40 @@
+ACME SUPPLIES PVT LTD
+123 Business Park, Electronic City
+Bangalore, Karnataka 560100
+GSTIN: 29AABCT1234C1Z5
+
+                            TAX INVOICE
+
+Invoice Number: INV-2025-0099
+Invoice Date: 08/11/2025
+Due Date: 08/12/2025
+
+Bill To:
+Tech Solutions Ltd
+456 Innovation Street
+Bangalore, Karnataka 560001
+
+Description                      Qty    Rate        Amount
+----------------------------------------------------------------
+Cable ties 100mm (Pack of 100)    10    150.00     1,500.00
+Zip ties 200mm (Pack of 50)       20  1,250.00    25,000.00
+Wire management clips              5    340.00     1,700.00
+Cable tray 2m length              15    620.00     9,300.00
+Cable glands M20                  30    126.67     3,800.00
+
+                                         Subtotal: 41,300.00
+
+                                         CGST @ 9%:  3,717.00
+                                         SGST @ 9%:  3,717.00
+
+                                    TOTAL AMOUNT: ₹ 48,734.00
+
+Payment Terms: Net 30 Days
+Bank Details:
+  HDFC Bank Ltd
+  Account: 12345678901234
+  IFSC: HDFC0001234
+
+Authorized Signatory
+
+For ACME SUPPLIES PVT LTD
