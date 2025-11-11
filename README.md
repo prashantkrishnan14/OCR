@@ -44,11 +44,49 @@ brew install tesseract poppler
 #### Windows:
 Download and install Tesseract from: https://github.com/UB-Mannheim/tesseract/wiki
 
-### 2. Install Python Dependencies
+### 2. Installation Options
+
+#### Option A: Install as Frappe App (Recommended for ERPNext users)
 
 ```bash
-pip install -r requirements.txt
+# Navigate to your frappe-bench directory
+cd ~/frappe-bench
+
+# Download and run the installation script
+wget https://raw.githubusercontent.com/prashantkrishnan14/OCR/main/install_ocr_app.sh
+chmod +x install_ocr_app.sh
+./install_ocr_app.sh your-site-name
 ```
+
+**Troubleshooting**: If you encounter dependency errors, use manual installation:
+
+```bash
+cd ~/frappe-bench
+
+# Install Python dependencies (avoids frappe-client conflict)
+./env/bin/pip install pytesseract Pillow pdf2image opencv-python-headless
+./env/bin/pip install python-dateutil rapidfuzz pandas
+
+# Get the app
+bench get-app https://github.com/prashantkrishnan14/OCR.git --skip-assets
+
+# Install on your site
+bench --site your-site-name install-app ocr-vendor-bill-ingestion
+bench restart
+```
+
+#### Option B: Standalone Installation (for testing/development)
+
+```bash
+# Clone the repository
+git clone https://github.com/prashantkrishnan14/OCR.git
+cd OCR
+
+# Install dependencies
+pip install -r requirements-standalone.txt
+```
+
+**See [INSTALLATION.md](./INSTALLATION.md) for detailed instructions and troubleshooting.**
 
 ### 3. Configure Environment
 
